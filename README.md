@@ -26,3 +26,4 @@ Shoppeeyy is a fake online shopping application built with React and TypeScript 
 - Vite
 - React Router
 - React Query
+- next

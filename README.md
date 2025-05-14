@@ -1,29 +1,73 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/t4UX4h2e)
+# E-commerce Web Application
+
+Welcome to ShopMart. This Readme provides an overview of the project, structure, and the features. This Readme will serve as a comprehensive guide to understanding and using the application.
 
 
-# e-commerce online store
+## Table of Contents
 
-Shoppeeyy is a fake online shopping application built with React and TypeScript for milestone-2 project, utilizing the api.platzi.com API for product data.
+
+1. [Project Overview](#project-overview)
+2. [Features](#features)
+3. [Project Structure](#project-structure)
+4. [Technologies Used](#technologies-used)
+5. [Setup Instructions](#setup-instructions)
+
+
+## Project Overview
+
+This project is a modern e-commerce web application built with **Next.js** and **TypeScript**. It is designed to provide a seamless shopping experience with a responsive UI and efficient state management. The application includes features such as user authentication, a product catalog, a shopping cart, and more.
+
 
 ## Features
 
-- User registration and login
-- Product listing with category filtering
-- Product detail pages
-- Shopping cart functionality
-- Responsive design
+- User Authentication : Login and registration with form validation.
+- Product Management :
+  - View product details.
+  - Add, update, and remove items from the shopping cart.
+  - Pagination and category filtering.
+- Responsive Design : Optimized for desktop and mobile.
+- API Integration : Data fetching from a RESTful API using the Fetch API.
 
-## Installation
 
-1. Clone the repository
-2. Run `npm install` to install dependencies
-3. Run `npm run dev` to start the development server
+## Project Structure
+
+The project is organized into the following directories:
+
+- **`components`**: Reusable UI components.
+- **`pages`**: Components for application routes
+- **`lib`**: API functions and utility methods.
+- **`types`**: TypeScript type definitions.
+- **`hooks`**: Custom React hooks.
+- **`styles`**: Global styles.
+
 
 ## Technologies Used
 
-- React
-- TypeScript
-- Vite
-- React Router
-- React Query
-- next
+- **Frontend**: Next.js, TypeScript
+- **API**: Fetch API for HTTP requests
+
+---
+
+## Setup Instructions
+
+To run this project locally, follow these steps:
+
+1. Clone the Repository :
+
+   ```bash
+   git clone [your URL]
+   cd projectname
+   ```
+
+2. Install Dependencies :
+
+   ```bash
+   npm install
+   ```
+
+3. Start the Development Server :
+
+   ```bash
+   npm run dev
+   ```
+
